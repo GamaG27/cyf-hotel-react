@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../139899.svg";
 
-export function Heading() {
+function Heading() {
   return (
     <header className="App-header">
       <img src={Logo} alt="Hotel logo" />
@@ -9,3 +9,5 @@ export function Heading() {
     </header>
   );
 }
+
+export default Heading;

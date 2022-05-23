@@ -62,3 +62,15 @@ tr {
 .card {
   width: 18rem;
 }
+
+.card img {
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hightlightRow {
+  background-color: cyan;
+}
